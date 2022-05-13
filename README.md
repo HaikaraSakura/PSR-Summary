@@ -72,7 +72,7 @@ var_dump($male === $female); // false
 var_dump($male instanceof HumanInterface); // true
 var_dump($female instanceof HumanInterface); // true
 
-// 引数の型としてHumanInterfaceを指定した無名関数。
+// 引数の型としてHumanInterfaceを指定した無名関数
 $echoHumanName = function (HumanInterface $human): bool {
     echo $human->name;
 };
