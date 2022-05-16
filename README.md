@@ -73,6 +73,7 @@ var_dump($male instanceof HumanInterface); // true
 var_dump($female instanceof HumanInterface); // true
 
 // 引数の型としてHumanInterfaceを指定した無名関数
+// HumanInterfaceを実装したオブジェクト以外の値を引数に渡すとエラーになる
 $echoHumanName = function (HumanInterface $human): void {
     echo $human->name;
 };
