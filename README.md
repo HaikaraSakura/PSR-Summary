@@ -3,7 +3,7 @@
 PHP-FIGとPSRの存在をご存知でしょうか？  
 
 PHP-FIGとは、フレームワークやライブラリの垣根を超えた、PHPの開発者団体です。  
-PSRはPHP-FIGが策定している、基本的な規約とインターフェイスをまとめたものものです。
+PSRはPHP-FIGが策定している、基本的な規約とインターフェイスをまとめたものになります。
 
 [PHP-FIG公式](https://www.php-fig.org/)  
 [PHP-FIG構成メンバー](https://www.php-fig.org/personnel/)  
