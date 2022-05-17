@@ -68,7 +68,7 @@ $female = new Female();
 // 同じオブジェクトかどうか
 var_dump($male === $female); // false
 
-// それぞれのオブジェクトが、HumanInterfaceのインスタンスかどうか
+// それぞれのオブジェクトが、HumanInterfaceを実装したクラスのインスタンスかどうか
 var_dump($male instanceof HumanInterface); // true
 var_dump($female instanceof HumanInterface); // true
 
